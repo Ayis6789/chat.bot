@@ -1,0 +1,113 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hi, what can I do for you?",
+        "Hello, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye","Goodbye"],
+      "responses": [
+        "Thanks for visiting",
+        "Have a nice day",
+        "Bye!"
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+
+    {
+      "tag": "help",
+      "patterns": [
+        "Is anyone there?",
+        "I need help.....",
+        "Is the doctor here?"
+      ],
+      "responses": [
+        "What are you suffering from?",
+        "What kind of symptoms your facing?"
+      ]
+    },
+
+    {
+      "tag": "fatigue",
+      "patterns": [
+        "I am suffering from fatigue",
+        "I have fever",
+        "I have cough"
+      ],
+      "responses": [
+              "You are suffering from cold... So consult Dr.Ajit Kumar.",
+              "You are suffering from cold & flue... So consult Dr.Ajit Kumar."
+          ]
+
+    },
+    {
+      "tag": "headache",
+      "patterns": [
+        "I am suffering from headache",
+        "I have headache"
+      ],
+      "responses": [
+              "You are suffering from migraine... So consult Dr.Ayisha Patil.",
+              "You are suffering from sinus... So consult Dr.Ayisha Patil.",
+              "You are suffering from cluster... So consult Dr.Ayisha Patil.",
+              "You are suffering from tension... So consult Dr.Ayisha Patil.",
+              "You are suffering from nausea... So consult Dr.Ayisha Patil.",
+              "You are suffering from hypertension... So consult Dr.Ayisha Patil."
+          ]
+
+    },
+    {
+      "tag": "depression",
+      "patterns": [
+        "I am suffering from depression",
+        "I have difficulty in sleeping",
+        "I feel restlessness",
+        "I overthink",
+        "I feel irritated"
+      ],
+      "responses": [
+              "You are suffering from anxiety... So consult Dr.Sonali Pawar."
+          ]
+    },
+    {
+      "tag": "jaundice",
+      "patterns": [
+        "My skin turned yellow",
+        "My eyes turned yellow",
+        "My hands turned yellow",
+        "My face turned yellow"
+      ],
+      "responses": [
+              "You are suffering from Jaundice... So consult Dr.Aazeenelsa Tiwari."
+          ]
+
+    },
+    {
+      "tag": "cancer",
+      "patterns": [
+        "I have chest pain",
+        "I have bleeding nose",
+        "I have stomach pain"
+      ],
+      "responses": [
+              "You are suffering from cancer... So consult Dr.AbuSufiyan Popatlal."
+          ]
+
+    }
+  ]
+}
